@@ -1,0 +1,12 @@
+public class github {
+  public static void main (String args[]) {
+    int valor;
+    valor = Entrada.leiaInt ("Digite um valor: ");
+    while (valor !=0) {
+      while (valor<=0) {
+        System.out.println ("Valor Inválido!");
+        valor = Entrada.leiaInt ("Digite um valor válido: ");
+      }
+    }
+  }
+}
